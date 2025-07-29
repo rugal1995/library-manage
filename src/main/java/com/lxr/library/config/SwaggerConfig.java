@@ -30,7 +30,7 @@ public class SwaggerConfig extends BaseSwaggerConfig {
                 .apiBasePackage("com.lxr.library.modules")
                 .title("library-manage项目骨架")
                 .description("library-manage项目骨架相关接口文档")
-                .contactName("macro")
+                .contactName("lxr")
                 .version("1.0")
                 .enableSecurity(true)
                 .build();

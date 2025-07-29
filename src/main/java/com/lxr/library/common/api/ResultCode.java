@@ -1,9 +1,12 @@
 package com.lxr.library.common.api;
 
+import lombok.Getter;
+
 /**
  * 枚举了一些常用API操作码
  * Created by macro on 2019/4/19.
  */
+@Getter
 public enum ResultCode implements IErrorCode {
     SUCCESS(200, "操作成功"),
     FAILED(500, "操作失败"),
@@ -18,11 +21,4 @@ public enum ResultCode implements IErrorCode {
         this.message = message;
     }
 
-    public long getCode() {
-        return code;
-    }
-
-    public String getMessage() {
-        return message;
-    }
 }
