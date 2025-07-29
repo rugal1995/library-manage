@@ -1,15 +1,14 @@
 package com.lxr.library;
 
-import java.util.logging.Filter;
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+//@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, DruidDataSourceAutoConfigure.class})
 @SpringBootApplication
-public class MallTinyApplication {
+public class LibraryManageApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MallTinyApplication.class, args);
+        SpringApplication.run(LibraryManageApplication.class, args);
     }
 
 }

@@ -4,13 +4,10 @@ import com.lxr.library.modules.ums.model.UmsResource;
 import com.lxr.library.modules.ums.service.UmsAdminService;
 import com.lxr.library.modules.ums.service.UmsResourceService;
 import com.lxr.library.security.component.DynamicSecurityService;
-import com.lxr.library.security.config.SecurityConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.access.ConfigAttribute;
-import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
-import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 import java.util.List;
@@ -23,7 +20,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * Created by macro on 2019/11/9.
  */
 @Configuration
-public class MallSecurityConfig {
+public class LibrarySecurityConfig {
 
     @Autowired
     private UmsAdminService adminService;
