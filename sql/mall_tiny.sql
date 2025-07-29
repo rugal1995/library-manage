@@ -42,6 +42,8 @@ INSERT INTO `ums_admin` VALUES ('4', 'macro', '$2a$10$Bx4jZPR7GhEpIQfefDQtVeS58G
 INSERT INTO `ums_admin` VALUES ('6', 'productAdmin', '$2a$10$6/.J.p.6Bhn7ic4GfoB5D.pGd7xSiD1a9M6ht6yO0fxzlKJPjRAGm', null, 'product@qq.com', '商品管理员', '只有商品权限', '2020-02-07 16:15:08', null, '1');
 INSERT INTO `ums_admin` VALUES ('7', 'orderAdmin', '$2a$10$UqEhA9UZXjHHA3B.L9wNG.6aerrBjC6WHTtbv1FdvYPUI.7lkL6E.', null, 'order@qq.com', '订单管理员', '只有订单管理权限', '2020-02-07 16:15:50', null, '1');
 INSERT INTO `ums_admin` VALUES ('10', 'ceshi', '$2a$10$RaaNo9CC0RSms8mc/gJpCuOWndDT4pHH0u5XgZdAAYFs1Uq4sOPRi', null, 'ceshi@qq.com', 'ceshi', null, '2020-03-13 16:23:30', null, '1');
+INSERT INTO ums_admin (id, username, password, icon, email, nick_name, note, create_time, login_time, status) VALUES (16, 'role', '$2a$10$aaj4rMyy1rnA8Tb.IjX0QOVgqVaMWezHRvZgplCWKIH.Avozma3xC', '', 'rugal0326@163.com', 'boss', 'boss', '2025-07-29 13:50:24', null, 1);
+
 
 -- ----------------------------
 -- Table structure for ums_admin_login_log
